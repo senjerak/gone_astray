@@ -1,0 +1,244 @@
+html,
+body {
+    background: rgb(3, 5, 4);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+    padding: 0%;
+    margin: 0;
+    cursor: url('../media/curs2.cur'), auto;
+}
+
+.navWrap {
+    background-image: url('../media/GA_Tile.png');
+    display: block;
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(12%, 12%);
+}
+
+.scene {
+    /*border: solid red 3px;*/
+    height: 99%;
+    width: 99%;
+    display: inline-block;
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+}
+
+.character {
+    background-image: url('../media/GA-Cat.gif');
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    top: 45%;
+    right: 45%;
+}
+
+.character:hover{
+    transform: scale(110%);
+}
+
+.game{
+    /*border: solid red 2px;*/
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    height: 7%;
+    width: 30%;
+    position: absolute;
+    transform: translate(1%, -60%);
+    padding: 0;
+    text-align: left;
+}
+
+button{
+    padding: 1%;
+    border-style: none;
+    background: rgb(57, 57, 57);
+    color: rgb(233, 233, 233);
+    margin: .5%;
+    font-family: pressStart;
+}
+
+button:hover{
+    background: rgb(233, 233, 233);
+    color: rgb(57, 57, 57);
+    cursor: url('../media/curs2.cur'), auto;
+}
+
+.navBtn {
+    background-image: url('../media/GA_Arrow.png');
+    background-size: contain;
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    cursor: url('../media/curs2.cur'), auto;
+}
+
+#north {
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#north:hover{
+    top: -50px;
+    transition: top ease .5s;
+}
+
+#south {
+    bottom: -49px;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+}
+
+#south:hover{
+    bottom: -59px;
+    transition: bottom ease .5s;
+}
+
+#weast {
+    top: 50%;
+    left: -49px;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+#weast:hover{
+    left: -59px;
+    transition: left ease .5s;
+}
+
+#est {
+    top: 50%;
+    right: -49px;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+#est:hover{
+    right: -59px;
+    transition: right ease .5s;
+}
+
+@font-face {
+    font-family: pressStart;
+    src: url(../media/PressStart2P-Regular.ttf);
+}
+
+#minimap{
+    background-image: url('../media/GA_Map.png');
+    background-size: contain;
+    height: 460px;
+    width: 460px;
+    left: 5px;
+    position: absolute;
+    margin: .5%;
+    z-index: 3;
+    display: none;
+}
+
+.item:hover{
+    transform: scale(110%);
+}
+
+
+/* •☽────✧˖°˖ B2 ˖°˖✧────☾• */
+
+#item1_b2{
+    position: absolute;
+    bottom: 39%;
+    right: 34%;
+}
+
+#item2_b2{
+    position: absolute;
+    bottom: 50%;
+    right: 35%;
+}
+
+#item3_b2{
+    position: absolute;
+    bottom: 60%;
+    right: 45%;
+}
+
+#item4_b2{
+    position: absolute;
+    bottom: 52%;
+    right: 55%;
+}
+
+#item5_b2{
+    position: absolute;
+    bottom: 40%;
+    right: 55%;
+}
+
+#item6_b2{
+    position: absolute;
+    bottom: 33%;
+    right: 45%;
+}
+
+#tree1_b2{
+    position: absolute;
+    bottom: 85%;
+    right: 80%;
+}
+
+#tree2_b2{
+    position: absolute;
+    bottom: 78%;
+    right: 70%;
+}
+
+#tree3_b2{
+    position: absolute;
+    bottom: 68%;
+    right: 88%;
+}
+
+#bush1_b2{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+#bush2_b2{
+    position: absolute;
+    bottom: 35%;
+    right: 8%;
+}
+
+#bush3_b2{
+    position: absolute;
+    bottom: 15%;
+    right: 36%;
+}
+
+#bush4_b2{
+    position: absolute;
+    bottom: 80%;
+    right: 17%;
+}
+
+#bush5_b2{
+    position: absolute;
+    bottom: 10%;
+    right: 78%;
+}
+
+#bush6_b2{
+    position: absolute;
+    bottom: 30%;
+    right: 87%;
+}
