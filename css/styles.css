@@ -33,18 +33,16 @@ body {
 }
 
 .character {
-    background-image: url('../media/GA-Cat.gif');
+    background-image: url('../media/GA-Cat2.gif');
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     background-size: contain;
-    top: 45%;
-    right: 45%;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-35%);
 }
 
-.character:hover{
-    transform: scale(110%);
-}
 
 .game{
     /*border: solid red 2px;*/
