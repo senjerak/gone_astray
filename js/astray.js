@@ -41,7 +41,7 @@ for (const btn of soundBtn) {
 
 /* •☽────✧˖°˖Setup target clickies˖°˖✧────☾• */
 
-const buggies = ["./media/GA_bug1.png"];
+const buggies = ["./media/GA_bug1.png", "./media/GA_bug2.png", "./media/GA_bug3.png", "./media/GA_bug4.png", "./media/GA_bug5.png"];
 const target = document.getElementsByClassName("target")[0];
 const targetaudio = new Audio("./target/Stars_complete_Level_02.wav");
 targetaudio.load();
