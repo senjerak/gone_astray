@@ -49,8 +49,8 @@ targetaudio.load();
 target.addEventListener('click', function exposehim(){
   const randombugy = Math.floor(Math.random() * buggies.length);
     targetaudio.play();
-    target.style.width = '50px';
-    target.style.height = '50px';
+    target.style.width = '10px';
+    target.style.height = '10px';
     target.style.transform = 'scale(200%)';
     target.src= buggies[randombugy];
 
