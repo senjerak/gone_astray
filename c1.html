@@ -8,6 +8,8 @@
     <title>Gone Astray~!</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" type="image/x-icon" href="./media/GA_flower.png">
+    <link rel="preload" as="image" href="./media/GA-Cat2.gif">
+    <link rel="preload" as="image" href="./media/GA-Cat3.gif">
 </head>
 
 <body>
@@ -30,13 +32,13 @@
             <div class="menu">
                 <a href="index.html"><button>reset</button></a>
                 <button>list</button>
-                <button>map</button>
+                <button id="mapbutt">map</button>
             </div>
             <div id="minimap"></div>
             <div id="select"></div>
 
             <div class="game">
-                <div class="character"></div>
+                <div id="character"></div>
 
                 <img id="beach_c1" src="./media/GA_beach.png">
 
@@ -65,6 +67,7 @@
         </div>
     </div>
 
+    <script src="./js/astray.js"></script>
 
 </body>
 

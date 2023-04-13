@@ -32,7 +32,7 @@ body {
     position: relative;
 }
 
-.character {
+#character {
     background-image: url('../media/GA-Cat2.gif');
     position: absolute;
     height: 150px;
@@ -82,7 +82,7 @@ button:hover{
     height: 65px;
     width: 65px;
     cursor: url('../media/curs2.cur'), auto;
-    z-index: 3;
+    z-index: 5;
 }
 
 #north {
@@ -142,48 +142,48 @@ button:hover{
     left: 5px;
     position: absolute;
     margin: .5%;
-    z-index: 3;
+    z-index: 8;
     display: none;
 }
 
-.item:hover{
+.item:hover, .target:hover {
     transform: scale(110%);
 }
 
 
 /* •☽────✧˖°˖ B2 ˖°˖✧────☾• */
 
-#item1_b2{
+#flower1_b2{
     position: absolute;
     bottom: 39%;
     right: 34%;
 }
 
-#item2_b2{
+#mush1_b2{
     position: absolute;
     bottom: 50%;
     right: 35%;
 }
 
-#item3_b2{
+#flower2_b2{
     position: absolute;
     bottom: 60%;
     right: 45%;
 }
 
-#item4_b2{
+#mush2_b2{
     position: absolute;
     bottom: 52%;
     right: 55%;
 }
 
-#item5_b2{
+#flower3_b2{
     position: absolute;
     bottom: 40%;
     right: 55%;
 }
 
-#item6_b2{
+#mush3_b2{
     position: absolute;
     bottom: 33%;
     right: 45%;
@@ -415,8 +415,8 @@ button:hover{
     left: 20%;
 }
 
-#b3{
-    transform: translate(-45%, 45%);
+.b3{
+    transform: translate(-45%, 45%) !important;
 }
 
 
@@ -976,8 +976,8 @@ button:hover{
 
 /* •☽────✧˖°˖ C2 ˖°˖✧────☾• */
 
-#c2{
-    transform: translate(-65%, -75%);
+.c2 {
+    transform: translate(-65%, -95%) !important;
 }
 
 #river_c2{
