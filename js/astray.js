@@ -11,6 +11,19 @@ mapBtn.addEventListener('click', function openmap() {
   }
 })
 
+/* •☽────✧˖°˖Setup Help˖°˖✧────☾• */
+
+const helpbtn = document.querySelector("#help");
+const helpdiv = document.getElementById("select");
+helpbtn.addEventListener('click', function openhelp(){
+  console.log('display is:', getComputedStyle(helpdiv).display)
+if(getComputedStyle(helpdiv).display == 'none'){
+  helpdiv.style.display = 'block'
+} else {
+  helpdiv.style.display = 'none'
+}
+})
+
 /* •☽────✧˖°˖Setup item clickies˖°˖✧────☾• */
 
 const soundBtn = document.getElementsByClassName("item");
