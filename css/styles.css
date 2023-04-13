@@ -41,6 +41,7 @@ body {
     top: 40%;
     left: 50%;
     transform: translateX(-35%);
+    z-index: 3;
 }
 
 
@@ -81,6 +82,7 @@ button:hover{
     height: 65px;
     width: 65px;
     cursor: url('../media/curs2.cur'), auto;
+    z-index: 3;
 }
 
 #north {
@@ -243,14 +245,967 @@ button:hover{
 
 /* •☽────✧˖°˖ B1 ˖°˖✧────☾• */
 
+#bush1_b1{
+    position: absolute;
+    bottom: 30%;
+    right: 72%;
+}
 
+#bush2_b1{
+    position: absolute;
+    bottom: 80%;
+    right: 12%;
+}
 
+#bush3_b1{
+    position: absolute;
+    bottom:20%;
+    right: 52%;
+}
+
+#bush4_b1{
+    position: absolute;
+    bottom: 50%;
+    right: 9%;
+}
+
+#bush5_b1{
+    position: absolute;
+    bottom: 90%;
+    right: 22%;
+}
+
+#bush6_b1{
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+}
+
+#bush7_b1{
+    position: absolute;
+    bottom: 20%;
+    right: 82%;
+}
+
+#tree1_b1{
+    position: absolute;
+    bottom: 70%;
+    left: 12%;   
+}
+
+#tree2_b1{
+    position: absolute;
+    bottom: 50%;
+    left: 2%;   
+}
 
 /* •☽────✧˖°˖ B3 ˖°˖✧────☾• */
+
+#lake_b3{
+    position: absolute;
+    right: -0.5%;
+    top: 0%;
+}
+
+#flower1_b3{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+#flower2_b3{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+#flower3_b3{
+    position: absolute;
+    top: 50%;
+    right: 85%;
+}
+
+#flower4_b3{
+    position: absolute;
+    top: 15%;
+    right: 90%;
+}
+
+#flower5_b3{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+#flower6_b3{
+    position: absolute;
+    top: 40%;
+    right: 60%;
+}
+
+#bush1_b3{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+#bush2_b3{
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+}
+
+#bush3_b3{
+    position: absolute;
+    top: 57%;
+    left: 4%;
+}
+
+#bush4_b3{
+    position: absolute;
+    top: 85%;
+    left: 80%;
+}
+
+#bush5_b3{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+#bush6_b3{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+#bush7_b3{
+    position: absolute;
+    top: 26%;
+    left: 2%;
+}
+
+#bush8_b3{
+    position: absolute;
+    top: 69%;
+    left: 30%;
+}
+
+#bush9_b3{
+    position: absolute;
+    top: 52%;
+    left: 20%;
+}
+
+#mush1_b3{
+    position: absolute;
+    top: 62%;
+    right: 10%;
+}
+
+#mush2_b3{
+    position: absolute;
+    top: 92%;
+    right: 20%;
+}
+
+#mush3_b3{
+    position: absolute;
+    top: 82%;
+    left: 20%;
+}
+
+#b3{
+    transform: translate(-45%, 45%);
+}
+
+
 /* •☽────✧˖°˖ A1 ˖°˖✧────☾• */
+
+#mush1_a1{
+    position: absolute;
+    bottom: 50%;
+    left: 2%;   
+}
+
+#mush2_a1{
+    position: absolute;
+    bottom: 15%;
+    left: 12%;   
+}
+
+#mush3_a1{
+    position: absolute;
+    bottom: 32%;
+    left: 28%;   
+}
+
+#bush1_a1{
+    position: absolute;
+    bottom: 12%;
+    right: 28%;   
+}
+
+#bush2_a1{
+    position: absolute;
+    bottom: 72%;
+    left: 88%;   
+}
+
+#bush3_a1{
+    position: absolute;
+    bottom: 52%;
+    right: 28%;   
+}
+
+#bush4_a1{
+    position: absolute;
+    bottom: 22%;
+    left: 28%;   
+}
+
+#bush5_a1{
+    position: absolute;
+    bottom: 2%;
+    right: 8%;   
+}
+
+#bush6_a1{
+    position: absolute;
+    bottom: 32%;
+    right: 3%;   
+}
+
+#tree1_a1{
+    position: absolute;
+    bottom: 68%;
+    left: 63%;   
+}
+
+#tree2_a1{
+    position: absolute;
+    bottom: 72%;
+    left: 9%; 
+}
+
+#tree3_a1{
+    position: absolute;
+    bottom: 65%;
+    left: 33%;   
+}
+
+#tree4_a1{
+    position: absolute; 
+    bottom: 60%;
+    left: 1%;     
+}
+
+#tree5_a1{
+    position: absolute;
+    bottom: 52%;
+    left: 13%;  
+}
+
 /* •☽────✧˖°˖ A2 ˖°˖✧────☾• */
+
+#flower1_a2{
+    position: absolute;
+    bottom: 16%;
+    left: 63%;  
+}
+
+#flower2_a2{
+    position: absolute;
+    bottom: 25%;
+    left: 83%;  
+}
+
+#flower3_a2{
+    position: absolute;
+    bottom: 34%;
+    right: 23%;  
+}
+
+#flower4_a2{
+    position: absolute;
+    bottom: 23%;
+    right: 73%;  
+}
+
+#flower5_a2{
+    position: absolute;
+    bottom: 72%;
+    right: 53%;  
+}
+
+#flower6_a2{
+    position: absolute;
+    bottom: 61%;
+    left: 13%;  
+}
+
+#bush1_a2{
+    position: absolute;
+    bottom: 55%;
+    left: 70%;  
+}
+
+#bush2_a2{
+    position: absolute;
+    bottom: 50%;
+    left: 20%;  
+}
+
+#bush3_a2{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;  
+}
+
+#bush4_a2{
+    position: absolute;
+    bottom: 10%;
+    left: 90%;  
+}
+
+#bush5_a2{
+    position: absolute;
+    bottom: 70%;
+    left: 30%;  
+}
+
+#bush6_a2{
+    position: absolute;
+    bottom: 35%;
+    left: 55%;  
+}
+
+#bush7_a2{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;  
+}
+
+#tree1_a2{
+    position: absolute;
+    bottom: 70%;
+    left: 13%;  
+}
+
+#tree2_a2{
+    position: absolute;
+    bottom: 60%;
+    left: 53%;  
+}
+
+#tree3_a2{
+    position: absolute;
+    bottom: 70%;
+    left: 70%;  
+}
+
+#mush1_a2{
+    position: absolute;
+    bottom: 10%;
+    left: 30%;  
+}
+
+#mush2_a2{
+    position: absolute;
+    bottom: 25%;
+    left: 12%;  
+}
+
+#mush3_a2{
+    position: absolute;
+    bottom: 84%;
+    left: 51%;  
+}
+
 /* •☽────✧˖°˖ A3 ˖°˖✧────☾• */
+
+#flower1_a3{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;  
+}
+
+#flower2_a3{
+    position: absolute;
+    bottom: 25%;
+    left: 2%;  
+}
+
+#flower3_a3{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;  
+}
+
+#flower4_a3{
+    position: absolute;
+    bottom: 2%;
+    left: 8%;  
+}
+
+#flower5_a3{
+    position: absolute;
+    bottom: 10%;
+    left: 17%;  
+}
+
+#flower6_a3{
+    position: absolute;
+    bottom: 4%;
+    left: 28%;  
+}
+
+#flower7_a3{
+    position: absolute;
+    bottom: 18%;
+    left: 36%;  
+}
+
+#flower8_a3{
+    position: absolute;
+    bottom: 3%;
+    left: 1%;  
+}
+
+#flower9_a3{
+    position: absolute;
+    bottom: 41%;
+    left: 4%;  
+}
+
+#flower10_a3{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;  
+}
+
+#flower11_a3{
+    position: absolute;
+    bottom: 25%;
+    right: 2%;  
+}
+
+#flower12_a3{
+    position: absolute;
+    bottom: 15%;
+    right: 5%;  
+}
+
+#flower13_a3{
+    position: absolute;
+    bottom: 2%;
+    right: 8%;  
+}
+
+#flower14_a3{
+    position: absolute;
+    bottom: 10%;
+    right: 17%;  
+}
+
+#flower15_a3{
+    position: absolute;
+    bottom: 4%;
+    right: 28%;  
+}
+
+#flower16_a3{
+    position: absolute;
+    bottom: 18%;
+    right: 36%;  
+}
+
+#flower17_a3{
+    position: absolute;
+    bottom: 3%;
+    right: 1%;  
+}
+
+#flower18_a3{
+    position: absolute;
+    bottom: 41%;
+    right: 4%;  
+}
+
+#flower19_a3{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;  
+}
+
+#flower20_a3{
+    position: absolute;
+    top: 25%;
+    left: 2%;  
+}
+
+#flower21_a3{
+    position: absolute;
+    top: 15%;
+    left: 5%;  
+}
+
+#flower22_a3{
+    position: absolute;
+    top: 2%;
+    left: 8%;  
+}
+
+#flower23_a3{
+    position: absolute;
+    top: 10%;
+    left: 17%;  
+}
+
+#flower24_a3{
+    position: absolute;
+    top: 4%;
+    left: 28%;  
+}
+
+#flower25_a3{
+    position: absolute;
+    top: 18%;
+    left: 36%;  
+}
+
+#flower26_a3{
+    position: absolute;
+    top: 3%;
+    left: 1%;  
+}
+
+#flower27_a3{
+    position: absolute;
+    top: 41%;
+    left: 14%;  
+}
+
+#mush1_a3{
+    position: absolute;
+    top: 45%;
+    left: 60%;  
+}
+
+#mush2_a3{
+    position: absolute;
+    top: 20%;
+    left: 10%;  
+}
+
+#mush3_a3{
+    position: absolute;
+    top: 30%;
+    left: 80%;  
+}
+
+#mush4_a3{
+    position: absolute;
+      top: 73%;
+      left: 82%
+}
+
+#mush5_a3{
+    position: absolute;
+    top: 10%;
+    left: 40%;  
+}
+
+#mush6_a3{
+    position: absolute;
+    top: 60%;
+    left: 15%;  
+}
+
+#bush1_a3{
+    position: absolute;
+    top: 70%;
+    left: 25%;  
+}
+
+#bush2_a3{
+    position: absolute;
+    top: 15%;
+    left: 55%;  
+}
+
+#bush3_a3{
+    position: absolute;
+    top: 40%;
+    left: 5%;  
+}
+
+#bush4_a3{
+    position: absolute;
+    top: 80%;
+    left: 65%;  
+}
+
+#bush5_a3{
+    position: absolute;
+    top: 25%;
+    left: 30%;  
+}
+
+#bush6_a3{
+    position: absolute;
+    top: 55%;
+    left: 85%;  
+}
+
 /* •☽────✧˖°˖ C1 ˖°˖✧────☾• */
+
+#beach_c1{
+    position: absolute;
+    right: -0.5%;
+    top: 0%;
+}
+
+#bush1_c1{
+    position: absolute;
+    top: 20%;
+    left: 10%;  
+}
+
+#bush2_c1{
+    position: absolute;
+    top: 50%;
+    left: 15%;  
+}
+
+#bush3_c1{
+    position: absolute;
+    top: 80%;
+    left: 20%;  
+}
+
+#bush4_c1{
+    position: absolute;
+    top: 30%;
+    left: 25%;  
+}
+
+#bush5_c1{
+    position: absolute;
+    top: 60%;
+    left: 35%;  
+}
+
+#bush6_c1{
+    position: absolute;
+    top: 59%;
+    left: 5%;  
+}
+
+#bush7_c1{
+    position: absolute;
+    top: 65%;
+    left: 65%;  
+}
+
+#bush8_c1{
+    position: absolute;
+    top: 75%;
+    left: 90%;  
+}
+
+#bush9_c1{
+    position: absolute;
+    top: 83%;
+    left: 75%;  
+}
+
+#flower1_c1{
+    position: absolute;
+    top: 15%;
+    left: 35%;  
+}
+
+#flower2_c1{
+    position: absolute;
+    top: 5%;
+    left: 25%;  
+}
+
+#flower3_c1{
+    position: absolute;
+    top: 5%;
+    left: 5%;  
+}
+
+#flower4_c1{
+    position: absolute;
+    top: 85%;
+    left: 8%;  
+}
+
+#flower5_c1{
+    position: absolute;
+    top: 29%;
+    left: 5%;  
+}
+
+#flower6_c1{
+    position: absolute;
+    top: 55%;
+    left: 25%;  
+}
+
+#mush1_c1{
+    position: absolute;
+    top: 90%;
+    left: 65%;  
+}
+
+#mush2_c1{
+    position: absolute;
+    top: 70%;
+    left: 45%;  
+}
+
+#mush3_c1{
+    position: absolute;
+    top: 82%;
+    left: 35%;  
+}
+
 /* •☽────✧˖°˖ C2 ˖°˖✧────☾• */
+
+#c2{
+    transform: translate(-65%, -75%);
+}
+
+#river_c2{
+    position: absolute;
+    bottom: 0%;
+    right: -0.5%;
+}
+
+#flower1_c2{
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+}
+
+#flower2_c2{
+    position: absolute;
+    bottom: 45%;
+    left: 35%;
+}
+
+#flower3_c2{
+    position: absolute;
+    bottom: 80%;
+    left: 10%;
+}
+
+#flower4_c2{
+    position: absolute;
+    bottom: 70%;
+    left: 73%;
+}
+
+#flower5_c2{
+    position: absolute;
+    bottom: 65%;
+    left: 25%;
+}
+
+#flower6_c2{
+    position: absolute;
+    bottom: 12%;
+    left: 21%;
+}
+
+#bush1_c2{
+    position: absolute;
+    bottom: 75%;
+    left: 55%;
+}
+
+#bush2_c2{
+    position: absolute;
+    bottom: 8%;
+    left: 89%;
+}
+
+#bush3_c2{
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+
+#bush4_c2{
+    position: absolute;
+    bottom: 20%;
+    left: 41%;
+}
+
+#bush5_c2{
+    position: absolute;
+    bottom: 85%;
+    left: 84%;
+}
+
+#bush6_c2{
+    position: absolute;
+    bottom: 15%;
+    left: 80%;
+}
+
+#bush7_c2{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+
+#bush8_c2{
+    position: absolute;
+    bottom: 45%;
+    left: 12%;
+}
+
+#bush9_c2{
+    position: absolute;
+    bottom: 90%;
+    left: 26%;
+}
+
+#mush1_c2{
+    position: absolute;
+    bottom: 30%;
+    left: 26%;
+}
+
+#mush2_c2{
+    position: absolute;
+    bottom: 70%;
+    left: 5%;
+}
+
+#mush3_c2{
+    position: absolute;
+    bottom: 89%;
+    left: 73%;
+}
+
 /* •☽────✧˖°˖ C3 ˖°˖✧────☾• */
 
+#river_c3{
+    position: absolute;
+    top: 0%;
+    left: -0.5%;
+}
+
+#flower1_c3{
+    position: absolute;
+    top:32%;
+    left: 54%;
+}
+
+#flower2_c3{
+    position: absolute;
+    top: 86%;
+    right: 28%;
+}
+
+#flower3_c3{
+    position: absolute;
+    bottom: 44%;
+    left: 87%;
+}
+
+#flower4_c3{
+    position: absolute;
+    bottom: 21%;
+    left: 63%;
+}
+
+#flower5_c3{
+    position: absolute;
+    bottom: 89%;
+    left: 61%;
+}
+
+#flower6_c3{
+    position: absolute;
+    top: 87%;
+    left: 39%;
+}
+
+#bush1_c3{
+    position: absolute;
+    bottom: 48%;
+    left: 71%;
+}
+
+#bush2_c3{
+    position: absolute;
+    bottom: 12%;
+    left: 92%;
+}
+
+#bush3_c3{
+    position: absolute;
+    bottom: 28%;
+    left: 19%;
+}
+
+#bush4_c3{
+    position: absolute;
+    bottom: 86%;
+    left: 7%;
+}
+
+#bush5_c3{
+    position: absolute;
+    bottom: 83%;
+    left: 59%;
+}
+
+#bush6_c3{
+    position: absolute;
+    bottom: 15%;
+    left: 80%;
+}
+
+#bush7_c3{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+
+#bush8_c3{
+    position: absolute;
+    bottom: 65%;
+    right: 1%;
+}
+
+#bush9_c3{
+    position: absolute;
+    bottom: 90%;
+    right: 26%;
+}
+
+#mush1_c3{
+    position: absolute;
+    bottom: 30%;
+    left: 26%;
+}
+
+#mush2_c3{
+    position: absolute;
+    bottom: 70%;
+    right: 15%;
+}
+
+#mush3_c3{
+    position: absolute;
+    bottom: 89%;
+    right: 3%;
+}
